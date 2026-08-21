@@ -1,19 +1,18 @@
 {
-  "name": "bookshop",
-  "version": "1.0.1",
-  "description": "",
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Express Book Review - Final Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "express-session": "^1.17.3",
-    "jsonwebtoken": "^8.5.1",
-    "nodemon": "^2.0.19"
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }
